@@ -18,9 +18,6 @@
   <remote  name="matt4321"
            fetch="https://github.com/matt4321" />
            
-  <remote  name="flar2"
-           fetch="https://github.com/flar2" />
-
   <default revision="refs/tags/android-6.0.1_r13"
            remote="aosp"
            sync-c="true"
@@ -487,8 +484,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-6.0" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-6.0" />
-  <!-- ElementalX kernel for Hammerhead -->
-  <!--<project path="kernel/lge/hammerhead" name="ElementalX-N5" remote="matt4321" revision="ElementalX-6.00" /> -->
-  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="omnirom" revision="android-6.0" />
-
+  
 </manifest>
